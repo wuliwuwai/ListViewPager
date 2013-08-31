@@ -5,6 +5,7 @@ ListView分页,就一个类，轻量级。可以自动检测是否还有更多�
 
 代码示例
 =============
+``` java
 ListViewPager listPager=new ListPager(this,mListView);
         listPager.setPagerService(new PagerService() {
                     @Override
@@ -13,4 +14,5 @@ ListViewPager listPager=new ListPager(this,mListView);
                       //加载完代码后必须调用 finished.onFinished();
                     }
                 });
+``` 
                 
